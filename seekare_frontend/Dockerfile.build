@@ -1,0 +1,6 @@
+FROM node:16 as builder
+WORKDIR /var/www/html
+COPY package*.json ./
+RUN npm install --legacy-peer-deps
+COPY . .
+CMD ["npm", "run", "build"]

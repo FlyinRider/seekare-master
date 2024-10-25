@@ -1,0 +1,111 @@
+{
+  "roles": [
+    {
+      "title": "user",
+      "description": "Normal User"
+    },
+    {
+      "title": "admin",
+      "description": "Admin User"
+    },
+    {
+      "title": "triage",
+      "description": "Triage can add tags to the questions"
+    },
+    {
+      "title": "md",
+      "description": "MD is the helper who gives answer to the user's questions"
+    },
+    {
+      "title": "dev",
+      "description": "Developer"
+    },
+    {
+      "title": "root",
+      "description": "Super user"
+    }
+  ],
+  "users": [
+    {
+      "name": "root",
+      "email": "admin@mdhelp.io",
+      "password": "root1234",
+      "roleTitle": "admin"
+    }
+  ],
+  "categories": [
+    { "title": "COVID-19", "tag": "covid", "description": "Lorem" },
+    {
+      "title": "Heart disease (Cardiovascular)",
+      "tag": "cv",
+      "description": "Lorem"
+    },
+    {
+      "title": "Lungs and breathing (Pulmonary)",
+      "tag": "pulm",
+      "description": "Lorem"
+    },
+    {
+      "title": "Diabetes (Endocrinology)",
+      "tag": "dm",
+      "description": "Lorem"
+    },
+    {
+      "title": "High blood pressure (Hypertension)",
+      "tag": "htn",
+      "description": "Lorem"
+    },
+    {
+      "title": "Stomach and bowels (Gastroenterology)",
+      "tag": "gi",
+      "description": "Lorem"
+    },
+    {
+      "title": "Infections (Infectious disease)",
+      "tag": "ID",
+      "description": "Lorem"
+    },
+    {
+      "title": "Pain, bone and Spine issues",
+      "tag": "ortho",
+      "description": "Lorem"
+    },
+    {
+      "title": "Rashes and skin conditions (Dermatology)",
+      "tag": "derm",
+      "description": "Lorem"
+    },
+    {
+      "title": "Lupus and Arthritis (Rheumatological)",
+      "tag": "rheum",
+      "description": "Lorem"
+    },
+    {
+      "title": "Kidney and urine (Nephrology / Urology)",
+      "tag": "renal",
+      "description": "Lorem"
+    },
+    {
+      "title": "Stroke and nerves (Neurology)",
+      "tag": "neuro",
+      "description": "Lorem"
+    },
+    {
+      "title": "Female and reproduction (OB/GYN)",
+      "tag": "obgyn",
+      "description": "Lorem"
+    },
+    {
+      "title": "Cancer and blood issues (Hematology / Oncology)",
+      "tag": "hemeonc",
+      "description": "Lorem"
+    },
+    { "title": "General medical issues", "tag": "med", "description": "Lorem" },
+    {
+      "title": "General surgical issues",
+      "tag": "surg",
+      "description": "Lorem"
+    },
+    { "title": "Diet and exercise", "tag": "fen", "description": "Lorem" }
+  ]
+}

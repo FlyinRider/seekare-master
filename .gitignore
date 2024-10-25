@@ -1,0 +1,11 @@
+.DS_Store
+
+node_modules
+db/backup
+uploads/*
+docs/
+build
+.vscode
+seekare_backend/.env
+seekare_backend/.dev.env
+/.env
